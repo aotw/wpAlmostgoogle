@@ -2,10 +2,10 @@
 
 <div class="component share">
   <ul>
-    <li><a href="#"><div class="buzz><img src=http://localhost/wordpress/wp-content/themes/googlesque/images/social/buzz.png"></div><p><span>Buzz</span></p></a></li>
-    <li><a href="#"><div class="twitter"><img src="http://localhost/wordpress/wp-content/themes/googlesque/images/social/twitter.png"></div><p><span>Twitter</span></p></a></li>
-    <li><a href="#"><div class="fb"><img src="http://localhost/wordpress/wp-content/themes/googlesque/images/social/fb.png"></div><p><span>Facebook</span></p></a></li>
-    <li><a href="#"><div class="mail"><img src="http://localhost/wordpress/wp-content/themes/googlesque/images/social/mail.png"></div><p><span>Email</span></p></a></li>
+    <li><a href="#"><div class="buzz"><img src="<?php bloginfo('template_directory'); ?>/images/social/buzz.png"></div><p><span>Buzz</span></p></a></li>
+    <li><a href="#"><div class="twitter"><img src="<?php bloginfo('template_directory'); ?>/images/social/twitter.png"></div><p><span>Twitter</span></p></a></li>
+    <li><a href="#"><div class="fb"><img src="<?php bloginfo('template_directory'); ?>/images/social/fb.png"></div><p><span>Facebook</span></p></a></li>
+    <li><a href="#"><div class="mail"><img src="<?php bloginfo('template_directory'); ?>/images/social/mail.png"></div><p><span>Email</span></p></a></li>
   </ul>
 </div>
 
@@ -61,5 +61,6 @@
 <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
+
 
 
