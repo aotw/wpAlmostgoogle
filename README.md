@@ -22,11 +22,12 @@ KioshiBlack - Various code and css fixes
 * Include sidebar 
 * Add logo img/text
 * Add custom admin option
-	*Custom header
-	*Custom background
+* Custom header
+* Custom background
 * Fix floating socialbar
-	*Allow for left/right float option
+* Allow for left/right float option(socialbar)
 * Optimize & organize css (will be a while before I get to this)
+* Style List Items
 
 ## Notes
 
