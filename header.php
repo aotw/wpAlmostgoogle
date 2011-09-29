@@ -54,6 +54,8 @@
 		<div id="header">
 			
 		<div id="nav">
+			<img id="headLogo" src="<?php bloginfo('template_directory'); ?>/images/logo.png">
+
 	<ul>
 		<li>
 			<!--Custom Menu-->
@@ -71,11 +73,12 @@
 			?>	
 		</li>
 	</ul>
-	</div>
+		</div><!--nav-->
 
-		</div>
+		</div><!--header-->
 
 	
 	<div id="page-wrap">
+
 
 
