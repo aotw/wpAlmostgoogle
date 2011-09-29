@@ -79,23 +79,15 @@ border-bottom: thin dashed black;
   z-index: 999;
 }
 
+#headLogo {
+	float: left;
+	width: 110px;
+}
+
 #header a {text-decoration:none; font-weight: bold;}
 
-#header div:first-child {
-  height: 59px;
-  float: left;
-}
-#header div:first-child a:first-child img {
-  top: 14px;
-  left: 26px;
-  position: absolute;
-  cursor: pointer;
-}
-#header div:first-child ul {
-  margin-left: 115px;
-  height: 100%;
-  clear: left;
-}
+#header ul {margin-left: 120px;}
+
 #header div:first-child ul li {
   height: 100%;
   display: block;
@@ -135,7 +127,7 @@ border-bottom: thin dashed black;
 
 
 
-/*
+
 
 
 /*********/
@@ -143,7 +135,7 @@ border-bottom: thin dashed black;
 .component.share {
   margin-left: -40px;
   position: fixed;
-  top: 120px;
+  top: 250px;
   left: 100%;
 }
 
